@@ -1,4 +1,4 @@
-# e2e-technical-interview Q&A
+# Q&A
 
 > Here are some follow up questions we'd like you to answer to the best of your ability.
 
