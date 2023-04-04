@@ -1,49 +1,13 @@
-# e2e-technical-interview
-
-> Technical Interview take-home test for E2E SDET candidates.
-
-## Table of Contents
-
-- [Getting Started](#getting-started)
-  - [Step-by-step guide to set up the project](#step-by-step-guide-to-set-up-the-project)
-  - [Running the tests](#running-the-tests)
-- [Interview Assignment](#interview-assignment)
-- [Submitting the Assignment](#submitting-the-assignment)
-- [Resource Links](#resource-links)
-
-## Getting Started
-
-In order to simplify the process we've created this template repository to get you up and running as quickly as possible. You'll be using this template repository to create a new github repo on your own account. You can clone that repo, work on the assignment at your leisure, push updates, etc. When you think you've completed the assignment, you can add the interviewer as a collaborator on your repository (more instructions on that [below](#submitting-the-assignment)).
-
-### Step-by-step guide to set up the project
-
-- Click the "Use this template" button above and select the "Create a new repository" option from the dropdown.
-
-  ![Select Create a New Repository](./assets/docs/CreateNewRepository.png)
-- On the `Create a new repository from the e2e-technical-interview` screen, enter a repository name of your choosing.
-
-![Enter Repository Name](./assets/docs/RepoName.png)
-
-- Make sure to select `Private` for your visibility option.
-
-  ![Create Private Repository](./assets/docs/PrivateOption.png)
-
-- Click on the **Create repository from template** button, and It should create a new repository on your GitHub account.
-
-  ![Example of New a repository](./assets/docs/exampleRepo.png)
-
 ### Running the tests
-
-Now that you've copied the template and created a new project on your own account, you'll want to clone the repo to your local machine and try running the tests!
 
 - [Clone the repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) to your computer and run the following:
     ```sh
     npm ci
     npm run cypress
     ```
-- If everything runs successfully, you're in business! You can jump ahead to the [assignment](#interview-assignment) to see what tests you can start adding!
+- If everything runs successfully, you're in business!
 
-## Interview Assignment
+## Assignment
 
 As an experienced SDET, we look forward to seeing your test architecture and implementation. We intentionally kept the test cases simple so you can spend most of your time on data management, code proficiency, and test optimization. We are using the sauce demo for the coding assignment. Please complete the following two tests:
 
@@ -77,19 +41,6 @@ As an experienced SDET, we look forward to seeing your test architecture and imp
 3. You'll find a file in the root of the project named [`QUESTIONS.md`](./QUESTIONS.md). Please update that file to answer the following questions:
      - If you made any assumptions, what are they?
      - If given more time, what are some other high priority user flows you would test?
-
-## Submitting the assignment
-
-After you complete the assignment and you need to add collaborators to review your code. Here is how to add contributors to your new repository:
-
-- Go to the "Settings" tab on your repository page and click on **Collaborators** in the left side settings navigation.
-  ![Settings and callaborators button](./assets/docs/SettingsAndCollaborators.png)
-
-- Click on the **Add people** button on the manage access section.
-  ![Add People button](./assets/docs/addPeople.png)
-
-- Add a collaborator modal should appear and enter `engineering-interviews@leaflink.com` to find the collaborator, then click on the **Select a collaborator above** button.
-  ![find a collaborator and add to the repository](./assets/docs/SelectCollaborator.png)
 
 ## Resource Links
 -  [Cypress best practices](https://docs.cypress.io/guides/references/best-practices)
